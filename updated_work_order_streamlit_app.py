@@ -6,10 +6,16 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import json
+import tomli
+
+with open("secrets.toml", "rb") as f:
+    config = tomli.load(f)
+
+openai_api_key = config["openai"]["api_key"]
 
 # Load environment variables
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=openai_api_key)
 
 st.set_page_config(page_title="Work Order Processor", layout="wide")
 st.title("🛠️ Maintenance Work Order Assistant")

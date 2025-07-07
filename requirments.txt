@@ -3,7 +3,7 @@ fastapi
 twilio
 openai
 python-dotenv
-
+toml
 requests
 aiofiles
 accelerate
