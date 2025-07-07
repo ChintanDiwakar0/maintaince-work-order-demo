@@ -1,0 +1,9 @@
+
+fastapi
+twilio
+openai
+python-dotenv
+
+requests
+aiofiles
+accelerate

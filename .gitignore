@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# macOS & system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Excel / CSV work files (optional, if dynamically generated)
+*.xlsx
+*.csv
+
+# Python virtualenvs
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
