@@ -7,3 +7,4 @@ tomli
 requests
 aiofiles
 accelerate
+openpyxl
