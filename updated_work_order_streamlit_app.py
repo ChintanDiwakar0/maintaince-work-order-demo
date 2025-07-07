@@ -6,12 +6,10 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import json
-import tomli
 
-with open("secrets.toml", "rb") as f:
-    config = tomli.load(f)
 
-openai_api_key = config["openai"]["api_key"]
+
+openai_api_key = st.secrets["openai"]["api_key"]
 
 # Load environment variables
 load_dotenv()
